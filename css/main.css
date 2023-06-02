@@ -251,6 +251,9 @@ a {
   .content__items {
     grid-template-columns: repeat(5, 1fr);
   }
+  .wrapper {
+    width: calc(100vw - 100px);
+  }
 }
 @media (max-width: 1260px) {
   .content__items {
